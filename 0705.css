@@ -1,0 +1,336 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: rgb(49, 49, 49);
+}
+.nav{
+    display: flex;
+    margin: auto;
+    max-width: 1500px;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px 1px rgb(190, 190, 190);
+}
+.logo{
+    float: left;
+    width: 15%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+.menu{
+    float: right;
+    list-style: none;
+    padding: 10px;
+    margin: auto;
+}
+.menu-item,.footer-item{
+    line-height: 40px;
+    display: inline-flex;
+}
+.nav-link{
+    text-decoration: none;
+    color: gray;
+    padding:  0 10px;
+    border-right: 1px solid rgb(192, 192, 192);
+}
+.icon{
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+.logo>span,.footer-item>span{
+    color:white;
+}
+.change{
+    transform: rotate(180deg);
+}
+.header{
+    background-image: url("img/img.jpeg");
+    background-repeat: round;
+    background-size: contain;
+    padding: 10% 20%;
+    margin: 3px 0 0 0 ;
+}
+.text>h1{
+    font-size: 3.5rem;
+    color:rgb(63, 153, 238)
+}
+.text>h3{
+    font-size: 2.5rem;
+    font-weight: 200;
+    color:rgb(255, 255, 255)
+}
+.container>.button{
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 30px 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+.button>span{
+    margin: 0 20px 0 0;
+}
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: rgb(121, 121, 121);
+}
+.footer-nav{
+    list-style: none;
+    padding: 50px;
+    margin: auto;
+    color: white;
+    font-size: 12px;
+}
+.footer-nav>span{
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    padding:  0 20px;
+    border-right: 1px solid gray;
+}
+.container{
+    display: flex;
+}
+.Fixbutton{
+    position: fixed;
+    left: 90%;
+    top:50%;
+}
+.Top{
+    margin: 0.3rem;
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    border:1px solid rgb(192, 192, 192);
+    box-shadow: 1px 3px 6px 0px rgba(192, 192, 192, 0.527);
+    font-size: 0.1rem;
+    min-width: 86px;
+}
+hr{
+    width: 50px;
+    margin: 10px auto;
+}
+.row-1{
+    display: flex;
+    margin-bottom: 50px;
+    padding: 0px 10%;
+}
+.rowcontent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border:1px solid rgb(192, 192, 192);
+    box-shadow: 1px 3px 6px 0px rgba(192, 192, 192, 0.527);
+    height: 90px;
+    width: 300px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(194, 223, 255));
+    box-shadow: 2px 4px 6px 0px rgba(192, 192, 192, 0.527);
+    padding: 5px;
+}
+.rowcontent>img{
+    padding: 0 6%;
+    border-right: 1px dotted gray;
+
+}
+.content{
+    margin-top: -40px;
+}
+.row-2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 200px ;
+}
+.row-2>p,.row2text>span{
+    color:gray;
+}
+.row2content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border:1px solid rgb(192, 192, 192);
+    border-radius: 10px;
+    margin: 20px 0;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(211, 232, 255));
+
+}
+.row2content>img{
+    border-radius: 10px;
+    margin: 0;
+}
+.row2text{
+    padding: 0 50px;
+}
+
+.row2text>h3{
+    
+    margin-bottom: 10px;
+}
+.row-3{
+    padding: 0 200px 50px 200px;
+    
+}
+.row-3>h1{
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+.row-3>ol>li{
+    color: rgb(192, 192, 192);
+    margin: 5px 0;
+}
+.sm-menu{
+    display: none;
+}
+@media screen and (max-width:990px){
+    .header{
+        padding: 50px 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .text>p{
+        font-size: 2.5rem;
+    }
+    .text>h3{
+        font-size: 1.5rem;
+    }
+    .container{
+        flex-direction: row;
+        margin: 10px;
+    }
+    .row-1{
+        align-items: center;
+    }
+    .rowcontent{
+         margin: 5px 0;
+    }
+    .Fixbutton{
+        left: 85%;
+    }
+    .row-2{
+        padding: 5px 50px ;
+    }
+    .row-3{
+        padding: 5px 50px ;
+    }
+    .sm-menu{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+}
+@media screen and (max-width:768px) {
+    .header{
+        padding: 5% 5%;
+    }
+    .text>p{
+        font-size: 2.5rem;
+    }
+    .text>h3{
+        font-size: 1.5rem;
+    }
+    .container{
+        flex-direction: row;
+        margin: 10px;
+    }
+    .container>.button{
+        margin: 0 5px;
+        height: 55px;
+    }
+    .row-1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rowcontent{
+        margin: 5px 0;
+    }
+    .content{
+        margin-top: 0px;
+    }
+    .Fixbutton{
+        left: 70%;
+    }
+    .row-2{
+        padding: 5px 50px ;
+    }
+    .row2content{
+        flex-direction: column;
+    }
+    .row2content>img{
+        width: 100%;
+    }
+    .active2{
+        flex-direction: column-reverse;
+    }
+    .row2text {
+        padding: 5px 10px;
+    }
+    .row-3{
+        padding: 5px 50px ;
+    }
+    .menu{
+        float: none;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        max-height: 0;
+    }
+    .sm-menu{
+        display: flex;
+        margin: 0 5%;
+    }
+    .sm-menu>img{
+        width: 60%;
+    }
+    .change{
+        width: 8%;
+    }
+    .nav{
+        flex-wrap: wrap;
+    }
+    .nav-link{
+        border: none;
+    }
+    label {
+        cursor: pointer;
+    }
+    input:checked ~ .menu {
+        max-height: 300px;
+    }
+    .logo{
+        width: 40%;
+        margin: 0 20% 0 5%;
+    }
+}
+  
