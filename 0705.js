@@ -1,8 +1,6 @@
-var angle=180;//切換注意事項旁三角形的角度
 $(document).ready(function(){
-    $('.change').click(function(){
-        $('.tips').slideToggle();
-        angle+=180;
-        $('.change').css("transform","rotate("+angle+"deg)");
+    $('.content__row3__h3__img').click(function(){
+        $('.content__row3__ol').toggle();
+        $('.content__row3__h3__img').toggleClass("content__row3__h3__img--reverse");
     })
 })

@@ -4,149 +4,171 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>富邦人壽</title>
+    <link rel="icon" href="img/icon.ico">
     <link rel="stylesheet" href="0705.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="0705.js"></script>
 </head>
 <body>
-    <div style="height: 5px;width: 100%;background: linear-gradient(to right, rgb(78, 144, 231), rgb(117, 238, 202));">
-    </div>
+    <div class="color"></div>
     <div class="nav">
-            <a href="" class="logo">
-                <img src="img/logo.svg" width="100%">
+        <div class="nav__div">
+            <a href="" class="nav__div__logo">
+                <img class="nav__div__logo__img" src="img/logo.svg" >
             </a>
-            <label class="sm-menu"  for="switch">
-                <img src="img/menu.png">
+            <label class="nav__div__s-menu"  for="switch">
+                <img class="nav__div__s-menu__img" src="img/menu.png">
             </label>
-            <input type="checkbox" id="switch" style="display:none;">
-            <ul class="menu" >
-                <li class="menu-item">
-                    <a class="nav-link " aria-current="page" href="#">我是選單</a>
-                </li>
-                <li class="menu-item">
-                    <a class="nav-link" href="#">我是選單</a>
-                </li>
-                <li class="menu-item">
-                    <a class="nav-link" href="#">我是選單</a>
-                </li>
-                <li class="menu-item">
-                    <a class="nav-link " href="#" >我是選單</a>
-                </li>
-                <li class="menu-item">
-                    <a class="icon" href="#" ><img src="img/line.png" alt="" width="24px;"></a>
-                </li>
-                <li class="menu-item">
-                    <a class="icon" href="#" ><img src="img/facebook.png" alt="" width="24px"></a>
-                </li>
-            </ul>
+        </div>
+        <input type="checkbox" id="switch">
+        <ul class="nav__menu" >
+            <li class="nav__menu__item">
+                <a class="nav__menu__item__link" aria-current="page" href="#">
+                    <span class="nav__menu__item__span">我是選單</span>
+                </a>
+            </li>
+            <li class="nav__menu__item">
+                <a class="nav__menu__item__link" href="#">
+                    <span class="nav__menu__item__span">我是選單</span>
+                </a>
+            </li>
+            <li class="nav__menu__item">
+                <a class="nav__menu__item__link" href="#">
+                    <span class="nav__menu__item__span">我是選單</span>
+                </a>
+            </li>
+            <li class="nav__menu__item">
+                <a class="nav__menu__item__link" href="#" >
+                    <span class="nav__menu__item__span">我是選單</span>
+                </a>
+            </li>
+            <li class="nav__menu__item">
+                <a class="nav__menu__item__icon" href="#" >
+                    <img class="nav__menu__item__icon__img" src="img/line.png" alt="" >
+                </a>
+            </li>
+            <li class="nav__menu__item">
+                <a class="nav__menu__item__icon" href="#" >
+                    <img class="nav__menu__item__icon__img" src="img/facebook.png" alt="">
+                </a>
+            </li>
+        </ul>
     </div>
     <div class="header">
-        <div class="text">
-            <h1>我是主標題</h1>
-            <h3>我是副標題我是副標題</h3>
+        <div class="header__text">
+            <h1 class="header__text__h1">我是主標題</h1>
+            <p class="header__text__p">我是副標題我是副標題</p>
         </div>
-        <div class="container">
-            <div class="button">
-                <img src="img/googleplay.png" alt="" width="21%" >
-                <span style="font-weight: 100;font-size: x-small;margin: 0;">GET IT ON</span>
-                <span style="font-size: x-small;margin: 0;">Google Play</span>
-            </div>
-            <div class="button">
-                <img src="img/applelogo.png" alt="" width="21%">
-                <span style="font-weight: 100;font-size: x-small;margin: 0;">Availble on the</span>
-                <span style="font-weight: 100;font-size: x-small;margin: 0;">App Store</span>
-            </div>
+        <div class="header__container">
+            <button class="header__container__button">
+                <img class="header__container__button__img" src="img/googleplay.png" alt="">
+                <span class="header__container__button__span">GET IT ON</span>
+                <span class="header__container__button__span header__container__button__span--b" >Google Play</span>
+            </button>
+            <button class="header__container__button">
+                <img class="header__container__button__img" src="img/applelogo.png" alt="" >
+                <span class="header__container__button__span">Availble on the</span>
+                <span class="header__container__button__span">App Store</span>
+            </button>
         </div>
     </div>
     <div class="content">
-        <div class="row-1">
-            <div class="rowcontent">
-                <img src="img/applause.png" alt="">
+        <div class="content__row1">
+            <div class="content__row1__div">
+                <img class="content__row1__div__img" src="img/applause.png" alt="">
                 <span>標題標題標題</span>
                 <span>AAAAAA</span>
             </div>
-            <div class="rowcontent">
-                <img src="img/gift.png" alt="">
+            <div class="content__row1__div">
+                <img class="content__row1__div__img" src="img/gift.png" alt="">
                 <span>BBBBBB</span>
                 <span>標題標題標題</span>
             </div>
-            <div class="rowcontent">
-                <img src="img/monitor.png" alt="">
+            <div class="content__row1__div">
+                <img class="content__row1__div__img" src="img/monitor.png" alt="">
                 <span>CCCCCC</span>
                 <span>標題標題標題</span>
             </div>
         </div>
-        <div class="row-2">
+        <div class="content__row2">
             <hr>
-            <h1>活動標題</h1>
-            <p >活動文案活動文案活動文案活動文案活動文案活動文案活動文案活動文案活動文案活動文案活動文案</p>
-            <div class="row2content">
-                <img src="img/active.jpeg" alt="" width="45%">
-                <div class="row2text">
+            <h2 class="content__row2__h2">活動標題</h2>
+            <p class="content__row2__p">活動文案活動文案活動文案活動文案活動文案活動文案活動文案活動文案活動文案活動文案活動文案</p>
+            <div class="content__row2__div">
+                <img class="content__row2__div__img" src="img/active.jpeg" alt="">
+                <div class="content__row2__div__text">
                     <hr>
-                    <h3>活動1活動1活動1活動1</h3>
-                    <span>文案內容文案內容文案內容文案內容文案內容文案內容文案內容文案內容</span>                 
-                    <p style="color:rgb(94, 181, 240);">【文案活動文案活動文案活動】</p>
+                    <h3 class="content__row2__div__text__h3">活動1活動1活動1活動1</h3>
+                    <p class="content__row2__div__text__p">文案內容文案內容文案內容文案內容文案內容文案內容文案內容文案內容</p>                 
+                    <p class="content__row2__div__text__p">【文案活動文案活動文案活動】</p>
                 </div>
             </div>
-            <div class="row2content active2">
-                <div class="row2text ">
+            <div class="content__row2__div content__row2__div2">
+                <div class="content__row2__div__text">
                     <hr>
-                    <h3>活動2活動2活動2活動2</h3>
-                    <span>文案內容文案內容文案內容文案內容文案內容文案內容文案內容文案內容</span>
-                    <p style="color:rgb(94, 181, 240);">【文案活動文案活動文案活動】</p>
+                    <h3 class="content__row2__div__text__h3">活動2活動2活動2活動2</h3>
+                    <p class="content__row2__div__text__p">文案內容文案內容文案內容文案內容文案內容文案內容文案內容文案內容</p>
+                    <p class="content__row2__div__text__p">【文案活動文案活動文案活動】</p>
                 </div>
-                <img src="img/active.jpeg" alt="" width="45%">
+                <img class="content__row2__div__img"  src="img/active.jpeg" alt="">
             </div>
         </div>
-        <div class="row-3">
-            <h1>注意事項 <img src="img/up.png" alt="" width="2%" class="change"></h1>
-            <ol class="tips" style="display: none;">
-                <li>注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意</li>
-                <li>注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意</li>
-                <li>注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意</li>
-                <li>注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意</li>
-                <li>注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意</li>
-                <li>注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意</li>
-                <li>注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意</li>
-                <li>注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意</li>
+        <div class="content__row3">
+            <h3 class="content__row3__h3">注意事項 <img src="img/up.png" alt="" class="content__row3__h3__img"></h3>
+            <ol class="content__row3__ol" >
+                <li class="content__row3__ol__li">注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意</li>
+                <li class="content__row3__ol__li">注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意</li>
+                <li class="content__row3__ol__li">注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意</li>
+                <li class="content__row3__ol__li">注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意</li>
+                <li class="content__row3__ol__li">注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意</li>
+                <li class="content__row3__ol__li">注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意</li>
+                <li class="content__row3__ol__li">注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意</li>
+                <li class="content__row3__ol__li">注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意注意</li>
             </ol>
         </div>
-        <div class="Fixbutton">
-            <div class="Top">
+        <div class="content__fixbutton">
+            <div class="content__fixbutton__top">
                 <a href=""><img src="img/googleplay.png" alt=""></a>
                 <span>Google Play</span>
             </div>
-            <div class="Top">
+            <div class="content__fixbutton__top">
                 <a href=""><img src="img/applelogo.png" alt=""></a>
                 <span>Apple store</span>
             </div>
-            <div class="Top">
+            <div class="content__fixbutton__top content__fixbutton__top--up">
                 <a href="#"><img src="img/up.png" alt=""></a>
                 <span>TOP</span>
             </div>
         </div>
     </div>
     <div class="footer">
-        <ul class="footer-nav">
-            <li class="footer-item">
-                <a class="footer-link active" aria-current="page" href="#">常見問題</a>
+        <ul class="footer__nav">
+            <li class="footer__nav__item">
+                <a class="footer__nav__item__link active" aria-current="page" href="#">
+                    <span class="footer__nav__item__span">常見問題</span>
+                </a>
             </li>
-            <li class="footer-item">
-                <a class="footer-link" href="#">交易機制安全說明</a>
+            <li class="footer__nav__item">
+                <a class="footer__nav__item__link" href="#">
+                    <span class="footer__nav__item__span">交易機制安全說明</span>
+                </a>
             </li>
-            <li class="footer-item">
-                <a class="footer-link" href="#">法令公文</a>
+            <li class="footer__nav__item">
+                <a class="footer__nav__item__link" href="#">
+                    <span class="footer__nav__item__span">法令公文</span>
+                </a>
             </li>
-            <li class="footer-item">
-                <a class="footer-link " href="#" >隱私權聲明</a>            
+            <li class="footer__nav__item">
+                <a class="footer__nav__item__link" href="#" >
+                    <span class="footer__nav__item__span">隱私權聲明</span>
+                </a>            
             </li>
-            <li class="footer-item">
-                <span>網路投保服務專線：0809-010-658</span> 
+            <li class="footer__nav__item">
+                <span class="footer__nav__item__span">網路投保服務專線：0809-010-658</span> 
             </li>
-            <span>建議瀏覽器版本：IE10、Chrome4.0、Safari5、FifrFox3.0以上版本</span>
-            <span>ⒸFubon Life Insurance Co.Ltd. All Rights Reserved</span>
+            <span class="footer__nav__span">建議瀏覽器版本：IE10、Chrome4.0、Safari5、FifrFox3.0以上版本</span>
+            <span class="footer__nav__span">ⒸFubon Life Insurance Co.Ltd. All Rights Reserved</span>
         </ul>
     </div>
 </body>
