@@ -116,8 +116,6 @@
 .container__div__navbar{
     text-align: center;
 }
-
-/*  */
 .navbar__nav{
     float: right;
 }
@@ -174,4 +172,7 @@
 .logo__img{
     width: 140px;
     height: 30px;
+}
+.active__cardbody__small{
+    color: rgba(88,164,239,1);
 }
