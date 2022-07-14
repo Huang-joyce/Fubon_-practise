@@ -14,95 +14,117 @@
         <div class="header__color"></div>
     </div>
     <div class="header justify-content-between align-items-center">
-        <div class="navbar pb-lg-0 navbar-expand-lg navbar-light">
-            <div class="logo">
-                <a href="">
-                    <h1>
-                        <img class="logo__img" src="img/logo.svg" alt="" >  
-                    </h1> 
-                </a>
+        <div class="container">
+            <div class="navbar pb-lg-0 navbar-expand-lg navbar-light">
+                <div class="logo">
+                    <a href="">
+                        <h1>
+                            <img class="logo__img" src="img/logo.svg" alt="" >  
+                        </h1> 
+                    </a>
+                </div>
+                <button class="navbar-toggler collapsed container__icon__button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>        
+                <nav class="navbar__nav  navbar-collapse collapse justify-content-end text-center align-items-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav  menu__ul ">
+                        <li class="nav-item menu__ul__li">
+                            <a class="nav-link menu__ul__li__a" aria-current="page" href="#">
+                                <span class="menu__ul__li__a__span pe-2">我是選單</span>
+                            </a>
+                        </li>
+                        <li class="nav-item menu__ul__li">
+                            <a class="nav-link menu__ul__li__a" href="#">
+                                <span class="menu__ul__li__a__span pe-2">我是選單</span>
+                            </a>
+                        </li>
+                        <li class="nav-item menu__ul__li">
+                            <a class="nav-link menu__ul__li__a" href="#">
+                                <span class="menu__ul__li__a__span pe-2">我是選單</span>
+                            </a>
+                        </li>
+                        <li class="nav-item menu__ul__li">
+                            <a class="nav-link menu__ul__li__a" href="#">
+                                <span class="menu__ul__li__a__span pe-2">我是選單</span>
+                            </a>
+                        </li>
+                        <li class="nav-item menu__ul__li">
+                            <a class="nav-link menu__ul__li__a" href="#">
+                                <img class="menu__ul__li__a__img" src="img/line.png" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item menu__ul__li">
+                            <a class="nav-link menu__ul__li__a" href="#">
+                                <img class="menu__ul__li__a__img" src="img/facebook.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <button class="navbar-toggler collapsed container__icon__button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>        
-            <nav class="navbar__nav  navbar-collapse collapse justify-content-end text-center align-items-center" id="navbarSupportedContent">
-                <ul class="navbar-nav  menu__ul ">
-                    <li class="nav-item menu__ul__li">
-                        <a class="nav-link menu__ul__li__a" aria-current="page" href="#">
-                            <span class="menu__ul__li__a__span pe-2">我是選單</span>
-                        </a>
-                    </li>
-                    <li class="nav-item menu__ul__li">
-                        <a class="nav-link menu__ul__li__a" href="#">
-                            <span class="menu__ul__li__a__span pe-2">我是選單</span>
-                        </a>
-                    </li>
-                    <li class="nav-item menu__ul__li">
-                        <a class="nav-link menu__ul__li__a" href="#">
-                            <span class="menu__ul__li__a__span pe-2">我是選單</span>
-                        </a>
-                    </li>
-                    <li class="nav-item menu__ul__li">
-                        <a class="nav-link menu__ul__li__a" href="#">
-                            <span class="menu__ul__li__a__span pe-2">我是選單</span>
-                        </a>
-                    </li>
-                    <li class="nav-item menu__ul__li">
-                        <a class="nav-link menu__ul__li__a" href="#">
-                            <img class="menu__ul__li__a__img" src="img/line.png" alt="">
-                        </a>
-                    </li>
-                    <li class="nav-item menu__ul__li">
-                        <a class="nav-link menu__ul__li__a" href="#">
-                            <img class="menu__ul__li__a__img" src="img/facebook.png" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </nav>
         </div>
     </div>
-    <div class="section justify-content-center align-items-center">
-        <div class="d-flex flex-column justify-content-center header__div h-100">
-            <h1 class="section__div__h1 pt-0 pt-sm-5">我是主標題</h1>
-            <p class="section__div__p">我是副標題</p>
-            <div class="section__button d-flex ">
-                <div class="button d-flex flex-column  flex-sm-row">
-                    <button class="header__button d-flex">
-                        <img class="header__button__img" src="img/googleplay.png" alt="">
-                        <span>GET IT ON</span>
-                        <span>GooglePlayer</span>
-                    </button>
-                    <button class="header__button d-flex">
-                        <img class="header__button__img" src="img/applelogo.png" alt="">
-                        <span>Available on the</span>
-                        <span>App Store</span>
-                    </button>
+    <div class="section">
+        <div class="container h-100">
+            <div class="d-flex flex-column justify-content-center header__div h-100">
+                <h1 class="section__div__h1 pt-0 pt-sm-5">我是主標題</h1>
+                <p class="section__div__p">我是副標題</p>
+                <div class="section__button d-flex ">
+                    <div class="button d-flex flex-column  flex-sm-row ">
+                        <button class="header__button d-flex mb-2 flex-row text-start justify-content-around rounded-pill">
+                            <span>
+                                <img class="header__button__img" src="img/googleplay.png" alt="">
+                            </span>
+                            <span>
+                                <span class="d-block">GET IT ON</span>
+                                <span>GooglePlayer</span>
+                            </span>
+                        </button>
+                        <button class="header__button d-flex mb-2 flex-row text-start justify-content-around rounded-pill">
+                            <span>
+                                <img class="header__button__img" src="img/applelogo.png" alt="">
+                            </span>
+                            <span>
+                                <span class="d-block">Available on the</span>
+                                <span>App Store</span>
+                            </span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="d-flex flex-column content justify-content-center">
-        <div class="col-12 ">
-            <div class="d-flex div justify-content-center flex-md-column flex-lg-row align-items-center flex-column" >
-                <div class="div__button justify-content-center align-items-center">
+        <div class="container d-flex justify-content-around flex-md-column flex-lg-row align-items-center flex-column div mb-4">
+            <div class="div__button justify-content-center align-items-center rounded-pill py-2 px-4 mb-2">
+                <span>
                     <img class="div__button__img" src="img/applause.png" alt=""  >
-                    <span>標題標題標題</span>
+                </span>
+                <span class="mx-2">
+                    <span class="d-block">標題標題標題</span>
                     <span>AAAAAAAAA</span>
-                </div>
-                <div class="div__button justify-content-center align-items-center">
+                </span>
+            </div>
+            <div class="div__button justify-content-center align-items-center rounded-pill py-2 px-4 mb-2">
+                <span>
                     <img class="div__button__img" src="img/gift.png" alt="" >
-                    <span>標題標題標題</span>
+                </span>
+                <span class="mx-2">
+                    <span class="d-block">標題標題標題</span>
                     <span>BBBBBBB</span>
-                </div>
-                <div class="div__button justify-content-center align-items-center">
+                </span>
+            </div>
+            <div class="div__button justify-content-center align-items-center rounded-pill py-2 px-4 mb-2">
+                <span>
                     <img class="div__button__img" src="img/monitor.png" alt="" >
-                    <span>標題標題標題</span>
+                </span>
+                <span class="mx-2">
+                    <span class="d-block">標題標題標題</span>
                     <span>CCCCCCCC</span>
-                </div>
+                </span>
             </div>
         </div>
-        <div class="d-flex active justify-content-center">
-            <div class="col-8 col-sm-8 col-lg-10">
+        <div class="d-flex active container">
+            <div class="col-8 col-sm-8 col-lg-10 m-auto">
                 <div class="row justify-content-center text-center">
                     <hr class="active__hr ">
                     <h2>活動標題</h2>
@@ -142,10 +164,10 @@
                 </div>
             </div>
         </div>
-        <div class="d-flex justify-content-center">
-            <div class="col-10">
+        <div class="d-flex justify-content-center container">
+            <div class="col-10 m-auto">
                 <div class="row text-start justify-content-center">
-                    <div class="col-12 d-flex justify-content-center">
+                    <div class="col-12 d-flex justify-content-center mb-3">
                         <button class="tips" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                             <span class="tips__span">注意事項</span><img src="img/up.png" class="tips__span__img" alt="" id="up">
                         </button>
@@ -170,51 +192,65 @@
         </div>
         <div class="fixed">
             <div class="content__fixbutton">
-                <div class="content__fixbutton__top">
-                    <a href=""><img class="content__fixbutton__top__img" src="img/googleplay.png" alt=""></a>
-                    <span>Google Play</span>
+                <div class="content__fixbutton__top rounded-pill px-2 py-3 mb-3">
+                    <span>
+                        <a href="" class="content__fixbutton__a">
+                            <img class="content__fixbutton__top__img d-block m-auto" src="img/googleplay.png" alt="">
+                            <span>Google Play</span>
+                        </a>
+                    </span>
                 </div>
-                <div class="content__fixbutton__top">
-                    <a href=""><img class="content__fixbutton__top__img" src="img/applelogo.png" alt=""></a>
-                    <span>Apple store</span>
+                <div class="content__fixbutton__top rounded-pill px-2 py-3">
+                    <span>
+                        <a href="" class="content__fixbutton__a">
+                            <img class="content__fixbutton__top__img d-block m-auto" src="img/applelogo.png" alt="">
+                            <span>Apple store</span>
+                        </a>
+                    </span>
                 </div>
-                <div class="content__fixbutton__top content__fixbutton__top--up">
-                    <a href="#"><img class="content__fixbutton__top__img" src="img/up.png" alt=""></a>
-                    <span>TOP</span>
+                <div class="content__fixbutton__top content__fixbutton__top--up rounded-pill px-2 py-3">
+                    <span>
+                        <a href="#" class="content__fixbutton__a">
+                            <img class="content__fixbutton__top__img d-block m-auto" src="img/up.png" alt="">
+                            <span>TOP</span>
+                        </a>
+                    </span>
                 </div>
             </div>
         </div>
     </div>
-    <div class="d-flex footer justify-content-center p-5">
-            <ul class="nav footer__nav justify-content-center col-10 text-center">
+    <div class="d-flex footer justify-content-center p-5 text-center">
+        <div class="container">
+            <ul class="nav footer__nav justify-content-center col-10 text-center m-auto">
                 <li class="nav-item footer__nav__li">
                     <a class="nav-link active footer__nav__li__a" aria-current="page" href="#">
-                        <span class="footer__nav__li__a__span pe-4">常見問題</span>
+                        <span class="footer__nav__li__a__span ">常見問題</span>
                     </a>
                 </li>
                 <li class="nav-item footer__nav__li">
                     <a class="nav-link footer__nav__li__a" href="#">
-                        <span class="footer__nav__li__a__span pe-4">交易機制安全說明</span>
+                        <span class="footer__nav__li__a__span ">交易機制安全說明</span>
                     </a>
                 </li>
                 <li class="nav-item footer__nav__li">
                     <a class="nav-link footer__nav__li__a" href="#">
-                        <span class="footer__nav__li__a__span pe-4 ">法令公文</span>
+                        <span class="footer__nav__li__a__span">法令公文</span>
                     </a>
                 </li>
                 <li class="nav-item footer__nav__li">
                     <a class="nav-link footer__nav__li__a" href="#">
-                        <span class="footer__nav__li__a__span pe-4">隱私權聲明</span>
+                        <span class="footer__nav__li__a__span">隱私權聲明</span>
                     </a>
                 </li>
                 <li class="nav-item footer__nav__li">
                     <a class="nav-link footer__nav__li__a" href="#">
-                        <span class="footer__nav__li__a__span border-0 pe-4">網路投保服務專線：0809-010-658</span>
+                        <span class="footer__nav__li__a__span border-0">網路投保服務專線：0809-010-658</span>
                     </a>
                 </li>
             </ul>
-            <span class="footer__nav__span col-10 text-center">建議瀏覽器版本：IE10、Chrome4.0、Safari5、FifrFox3.0以上版本</span>
+            <span class="footer__nav__span col-10 text-center d-block m-auto">建議瀏覽器版本：IE10、Chrome4.0、Safari5、FifrFox3.0以上版本</span>
             <span class="footer__nav__span col-10 text-center">ⒸFubon Life Insurance Co.Ltd. All Rights Reserved</span>
+        </div>
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
